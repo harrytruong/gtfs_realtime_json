@@ -31,23 +31,32 @@ If you have any updates to this list, please message me or submit a PR!
 
 #### Working Feeds:
   - MTA ([link](http://datamine.mta.info/))
-     - Trip Updates (1, 2, 3, 4, 5, 6, S lines): `http://datamine.mta.info/mta_esi.php?key=<key>&feed_id=1`
-     - Trip Updates (L line): `http://datamine.mta.info/mta_esi.php?key=<key>&feed_id=2`
-     - Trip Updates (Staten Island Railway): `http://datamine.mta.info/mta_esi.php?key=<key>&feed_id=11`
+     - Trip Updates (1, 2, 3, 4, 5, 6, S lines):  
+       `http://datamine.mta.info/mta_esi.php?key=<key>&feed_id=1`
+     - Trip Updates (L line):  
+       `http://datamine.mta.info/mta_esi.php?key=<key>&feed_id=2`
+     - Trip Updates (Staten Island Railway):  
+       `http://datamine.mta.info/mta_esi.php?key=<key>&feed_id=11`
      - *Note: NYCT's custom gtfs-realtime extensions have been included.*
      - *Note: An API key is required for these feeds.*
   
   - ART ([link](http://www.arlingtontransit.com/pages/rider-tools/tools-for-developers/))
-     - Trip Updates: `http://realtime.commuterpage.com/rtt/public/utility/gtfsrealtime.aspx/tripupdate`
+     - Trip Updates:  
+       `http://realtime.commuterpage.com/rtt/public/utility/gtfsrealtime.aspx/tripupdate`
   
   - MBTA ([link](http://realtime.mbta.com/Portal/))
-     - Service Alerts: `http://developer.mbta.com/lib/GTRTFS/Alerts/Alerts.pb`
-     - Trip Updates: `http://developer.mbta.com/lib/GTRTFS/Alerts/TripUpdates.pb`
-     - Vehicle Positions: `http://developer.mbta.com/lib/GTRTFS/Alerts/VehiclePositions.pb`
+     - Service Alerts:  
+       `http://developer.mbta.com/lib/GTRTFS/Alerts/Alerts.pb`
+     - Trip Updates:  
+       `http://developer.mbta.com/lib/GTRTFS/Alerts/TripUpdates.pb`
+     - Vehicle Positions:  
+       `http://developer.mbta.com/lib/GTRTFS/Alerts/VehiclePositions.pb`
   
   - BART ([link](http://www.bart.gov/schedules/developers/gtfs-realtime))
-     - Service Alerts: `http://api.bart.gov/gtfsrt/alerts.aspx`
-     - Trip Updates: `http://api.bart.gov/gtfsrt/tripupdate.aspx`
+     - Service Alerts:  
+       `http://api.bart.gov/gtfsrt/alerts.aspx`
+     - Trip Updates:  
+       `http://api.bart.gov/gtfsrt/tripupdate.aspx`
 
 
 #### Feeds Not Yet Confirmed:
@@ -58,8 +67,6 @@ If you have any updates to this list, please message me or submit a PR!
 
 ## Compiling
 
-`$ virtualenv .venv`(optional)
-
-`$ pip install -r requirements.txt`
-
+`$ virtualenv .venv` (optional)  
+`$ pip install -r requirements.txt`  
 `$ ./pyinstaller.sh` (See **dist/gtfs_realtime_json**)
