@@ -58,6 +58,14 @@ If you have any updates to this list, please message me or submit a PR!
      - Trip Updates:  
        `http://api.bart.gov/gtfsrt/tripupdate.aspx`
 
+  - YRT/Viva ([link](http://www.yrt.ca/en/aboutus/GTFS.asp))
+     - Service Alerts:  
+       `http://rtu.york.ca/gtfsrealtime/ServiceAlerts`
+     - Trip Updates:  
+       `http://rtu.york.ca/gtfsrealtime/TripUpdates`
+     - Vehicle Positions:  
+       `http://rtu.york.ca/gtfsrealtime/VehiclePositions`
+
 
 #### Feeds Not Yet Confirmed:
   - Trimet ([link](http://developer.trimet.org/GTFS.shtml))
