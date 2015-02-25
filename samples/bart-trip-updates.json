@@ -1,0 +1,543 @@
+{
+	"header": {
+		"gtfs_realtime_version": "1.0",
+		"timestamp": 1424845886,
+		"incrementality": 0
+	},
+	"entity": [{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "COLS",
+				"stop_sequence": 12,
+				"departure": {
+					"delay": 0,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "69R10"
+			}
+		},
+		"id": "69R10"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "ASHB",
+				"stop_sequence": 6,
+				"departure": {
+					"delay": 60,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "70R10"
+			}
+		},
+		"id": "70R10"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "RICH",
+				"stop_sequence": 1,
+				"departure": {
+					"delay": 0,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "71R10"
+			}
+		},
+		"id": "71R10"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "NBRK",
+				"stop_sequence": 15,
+				"departure": {
+					"delay": 360,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "69R11"
+			}
+		},
+		"id": "69R11"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "RICH",
+				"stop_sequence": 1,
+				"departure": {
+					"delay": 0,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "72R10"
+			}
+		},
+		"id": "72R10"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "FTVL",
+				"stop_sequence": 8,
+				"departure": {
+					"delay": 480,
+					"uncertainty": 30
+				}
+			},
+			{
+				"stop_id": "MCAR",
+				"stop_sequence": 12,
+				"departure": {
+					"delay": 0,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "70R11"
+			}
+		},
+		"id": "70R11"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "RICH",
+				"stop_sequence": 1,
+				"departure": {
+					"delay": 0,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "73R10"
+			}
+		},
+		"id": "73R10"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "HAYW",
+				"stop_sequence": 4,
+				"departure": {
+					"delay": 180,
+					"uncertainty": 30
+				}
+			},
+			{
+				"stop_id": "BAYF",
+				"stop_sequence": 5,
+				"departure": {
+					"delay": 0,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "71R11"
+			}
+		},
+		"id": "71R11"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "FRMT",
+				"stop_sequence": 1,
+				"departure": {
+					"delay": 0,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "72R11"
+			}
+		},
+		"id": "72R11"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "SHAY",
+				"stop_sequence": 16,
+				"departure": {
+					"delay": 180,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "68R10"
+			}
+		},
+		"id": "68R10"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "FRMT",
+				"stop_sequence": 1,
+				"departure": {
+					"delay": 0,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "73R11"
+			}
+		},
+		"id": "73R11"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "24TH",
+				"stop_sequence": 9,
+				"departure": {
+					"delay": 0,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "86SFO11"
+			}
+		},
+		"id": "86SFO11"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "SBRN",
+				"stop_sequence": 3,
+				"departure": {
+					"delay": 0,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "87SFO11"
+			}
+		},
+		"id": "87SFO11"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "MLBR",
+				"stop_sequence": 1,
+				"departure": {
+					"delay": 0,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "88SFO11"
+			}
+		},
+		"id": "88SFO11"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "DALY",
+				"stop_sequence": 21,
+				"departure": {
+					"delay": 120,
+					"uncertainty": 30
+				}
+			},
+			{
+				"stop_id": "SSAN",
+				"stop_sequence": 23,
+				"departure": {
+					"delay": 0,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "83SFO10"
+			}
+		},
+		"id": "83SFO10"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "MLBR",
+				"stop_sequence": 1,
+				"departure": {
+					"delay": 0,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "89SFO11"
+			}
+		},
+		"id": "89SFO11"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "EMBR",
+				"stop_sequence": 13,
+				"departure": {
+					"delay": 0,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "84SFO10"
+			}
+		},
+		"id": "84SFO10"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "ROCK",
+				"stop_sequence": 8,
+				"departure": {
+					"delay": 0,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "85SFO10"
+			}
+		},
+		"id": "85SFO10"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "PHIL",
+				"stop_sequence": 4,
+				"departure": {
+					"delay": 0,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "86SFO10"
+			}
+		},
+		"id": "86SFO10"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "PITT",
+				"stop_sequence": 1,
+				"departure": {
+					"delay": 0,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "87SFO10"
+			}
+		},
+		"id": "87SFO10"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "LAFY",
+				"stop_sequence": 21,
+				"departure": {
+					"delay": 60,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "84SFO11"
+			}
+		},
+		"id": "84SFO11"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "PITT",
+				"stop_sequence": 1,
+				"departure": {
+					"delay": 0,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "88SFO10"
+			}
+		},
+		"id": "88SFO10"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "12TH",
+				"stop_sequence": 16,
+				"departure": {
+					"delay": 60,
+					"uncertainty": 30
+				}
+			},
+			{
+				"stop_id": "19TH",
+				"stop_sequence": 17,
+				"departure": {
+					"delay": 0,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "85SFO11"
+			}
+		},
+		"id": "85SFO11"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "DUBL",
+				"stop_sequence": 1,
+				"departure": {
+					"delay": 0,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "71DCM20"
+			}
+		},
+		"id": "71DCM20"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "DUBL",
+				"stop_sequence": 1,
+				"departure": {
+					"delay": 0,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "72DCM20"
+			}
+		},
+		"id": "72DCM20"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "SANL",
+				"stop_sequence": 14,
+				"departure": {
+					"delay": 60,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "69DCM21"
+			}
+		},
+		"id": "69DCM21"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "BALB",
+				"stop_sequence": 2,
+				"departure": {
+					"delay": 0,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "71DCM21"
+			}
+		},
+		"id": "71DCM21"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "CIVC",
+				"stop_sequence": 13,
+				"departure": {
+					"delay": 60,
+					"uncertainty": 30
+				}
+			},
+			{
+				"stop_id": "16TH",
+				"stop_sequence": 14,
+				"departure": {
+					"delay": 0,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "68DCM20"
+			}
+		},
+		"id": "68DCM20"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "DALY",
+				"stop_sequence": 1,
+				"departure": {
+					"delay": 0,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "72DCM21"
+			}
+		},
+		"id": "72DCM21"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "LAKE",
+				"stop_sequence": 8,
+				"departure": {
+					"delay": 0,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "69DCM20"
+			}
+		},
+		"id": "69DCM20"
+	},
+	{
+		"trip_update": {
+			"stop_time_update": [{
+				"stop_id": "DALY",
+				"stop_sequence": 1,
+				"departure": {
+					"delay": 0,
+					"uncertainty": 30
+				}
+			}],
+			"trip": {
+				"trip_id": "73DCM21"
+			}
+		},
+		"id": "73DCM21"
+	}]
+}

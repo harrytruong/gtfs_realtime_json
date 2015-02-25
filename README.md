@@ -12,12 +12,16 @@ $ gtfs_realtime_json <feed_url>
 
 Examples:
 ```bash
-$ gtfs_realtime_json http://api.bart.gov/gtfsrt/tripupdate.aspx
+$ gtfs_realtime_json "http://api.bart.gov/gtfsrt/tripupdate.aspx"
 {"header":{"gtfs_realtime_version":"1.0","timestamp":1424843250, ... }
 
-$ gtfs_realtime_json http://api.bart.gov/gtfsrt/tripupdate.aspx > output.json
+$ gtfs_realtime_json "http://api.bart.gov/gtfsrt/tripupdate.aspx" > output.json
 // save JSON to output.json file
 ```
+
+Sample JSON Outputs: 
+  - MTA Trip Update [json](samples/mta-trip-updates.json)
+  - BART Trip Update [json](samples/bart-trip-updates.json)
 
 ## GTFS-realtime Feed Sources
 
