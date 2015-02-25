@@ -1,11 +1,12 @@
 # gtfs_realtime_json
 Standalone utiltiy to convert gtfs-realtime feeds into simple JSON.
 
+## Download
+
+- Standalone Utility: [gtfs_realtime_json](https://github.com/harrytruong/gtfs_realtime_json/blob/master/dist/gtfs_realtime_json?raw=true)
+- Compile from the source (see below)
+
 ## Usage
-
-Download [gtfs_realtime_json](https://github.com/harrytruong/gtfs_realtime_json/blob/master/dist/gtfs_realtime_json?raw=true) standalone, or compile from source.
-
-Usage: 
 ```
 $ gtfs_realtime_json <feed_url>
 ```
