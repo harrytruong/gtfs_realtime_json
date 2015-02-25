@@ -1,0 +1,4 @@
+*.pyc
+.venv
+build
+gtfs_realtime_json.spec
