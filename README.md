@@ -1,5 +1,5 @@
 # gtfs_realtime_json
-Standalone utiltiy to convert gtfs-realtime feeds into simple JSON.
+Standalone utility to convert gtfs-realtime feeds into simple JSON (and backward).
 
 ## Download
 
@@ -23,6 +23,20 @@ $ gtfs_realtime_json "http://api.bart.gov/gtfsrt/tripupdate.aspx" > output.json
 Sample JSON Outputs: 
   - MTA Trip Update [json](samples/mta-trip-updates.json)
   - BART Trip Update [json](samples/bart-trip-updates.json)
+
+### Converting a JSON to a protobuf file
+
+First create a virtualenv:
+```bash
+$ mkvirtualenv gtfs_realtime_json
+$ pip install -r requirements.txt
+```
+
+Then each time simply:
+```bash
+$ workon gtfs_realtime_json
+$ ./json_gtfs_realtime.py file:gtfsrt.json gtfsrt.pb
+```
 
 ## GTFS-realtime Feed Sources
 
